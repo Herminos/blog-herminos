@@ -37,7 +37,6 @@ export default function Page(){
                 Besides, I know a bit of other framework like Vue or Svelte but not very familiar with them.<br/><br/>
                 I am also interested in Natural Science, especially Physics. I am a fan of Erwin Schrödinger. In that case, I also know a bit of Quantum Computing and its Python framework
                 Qiskit.
-
             </p>
         </div>
 
