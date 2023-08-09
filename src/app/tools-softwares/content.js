@@ -1,3 +1,34 @@
+ export const OSConfig={
+    title:'Operating Systems',
+    list:[
+        {
+            software:'macOS Ventura',
+            URL:'https://www.apple.com/macos/',
+            description:'For daily use, web development, Swift development and learning ARM'
+        },
+        {
+            software:'Kubuntu 23.04',
+            URL:'https://kubuntu.org/',
+            description:'For C/C++ development and learing Assembly.'
+        },
+        {
+            software:'Windows 11',
+            URL:'https://www.microsoft.com/en-us/windows/windows-11',
+            description:'For playing Minecraft and some Windows only software.'
+        },
+        {
+            software:'iOS 15',
+            URL:'https://www.apple.com/ios/ios-15/',
+            description:'For daily use and Swift development.'
+        },
+        {
+            software:'Raspberry Pi OS',
+            URL:'https://www.raspberrypi.org/software/',
+            description:'For running my server on my Raspberry Pi.'
+        }
+    ]
+ }
+ 
  export const GeneralConfig={
     title:'General',
     list:[

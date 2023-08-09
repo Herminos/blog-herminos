@@ -1,4 +1,4 @@
-import {CodeEditorIDEConfig, GeneralConfig, DevelopmentRelatedConfig, PenetrationTestingConfig} from './content'
+import { OSConfig,CodeEditorIDEConfig, GeneralConfig, DevelopmentRelatedConfig, PenetrationTestingConfig} from './content'
 
 
 export default function Page(){
@@ -6,6 +6,7 @@ export default function Page(){
         <div className=' pt-16 flex flex-col'>
             <h1 className='text-center text-4xl my-20 self-center bg-gradient-to-r from-[#fccf31] to-[#f55555] bg-clip-text text-transparent'>Tools and Softwares I use</h1>
             <div className='w-5/6 mx-auto flex flex-col'>
+                <Description config={OSConfig}/>
                 <Description config={GeneralConfig}/>
                 <Description config={CodeEditorIDEConfig}/>
                 <Description config={DevelopmentRelatedConfig}/>

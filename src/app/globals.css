@@ -1,3 +1,45 @@
 @tailwind base;
+
+@layer base{
+    h1 {
+        @apply text-light-gray;
+        @apply text-6xl;
+        @apply my-10
+    }
+    h2 {
+        @apply text-light-gray;
+        @apply text-3xl;
+        @apply my-10
+    }
+    h3 {
+        @apply text-light-gray;
+        @apply text-xl;
+        @apply my-10
+    }
+
+    p{
+        @apply text-light-gray;
+        @apply my-3
+    }
+
+    a{
+        @apply text-light-gray;
+        @apply hover:text-sky-400;
+    }
+
+    a#nav{
+        @apply text-sky-400;
+    }
+    pre{
+        @apply text-light-gray;
+        @apply p-3;
+        @apply rounded-md;
+        @apply border;
+        @apply border-gray;
+        @apply overflow-x-auto;
+        @apply mb-3;
+    }
+}
+
 @tailwind components;
 @tailwind utilities;

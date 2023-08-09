@@ -84,7 +84,7 @@ export default function Page() {
 
 function TechPoint({config}:{config:any}){
     return(
-        <div className='flex w-5/6 mx-auto border-2 border-gray px-2 py-2 rounded-lg shadow-md shadow-gray mb-20'>
+        <div className='flex w-5/6 mx-auto border-2 border-gray px-2 py-2 rounded-lg shadow-lg shadow-black mb-20'>
             <div className='min-w-[350px] min-h-[350px] flex justify-center'>
                 <Image src={config.image} width={200} height={200} alt={config.name} className='min-h-[200px] min-w-[200px] self-center'/>
             </div>
