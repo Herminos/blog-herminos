@@ -33,7 +33,6 @@ export default function RootLayout({
                     <NavItem href='/blogs' name='Blogs' />
                     <NavItem href='/tools-softwares' name='Tools/Software' />
                     <NavItem href='/techpoints' name='TechPoints' />
-                    <NavItem href='/about' name='About' />
                 </div>
 
                 {children}

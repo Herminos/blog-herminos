@@ -84,6 +84,21 @@ export const DevelopmentRelatedConfig={
             description:'For containerize my applications and running them on my server. Or when I want to try some software without installing them on my computer.'  
         },
         {
+            software:'Homebrew',
+            URL:'https://brew.sh/',
+            description:'For installing software on macOS.'
+        },
+        {
+            software:'MySQL',
+            URL:'https://www.mysql.com/',
+            description:'For SQL based database.'
+        },
+        {
+            software:'Redis',
+            URL:'https://redis.io/',
+            description:'For key-value based database.'
+        },
+        {
             software:'DOSBox',
             URL:'https://www.dosbox.com/',
             description:'For running DOS games, learning Assembly and learing Intel 8086'
