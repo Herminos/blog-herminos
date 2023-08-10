@@ -13,11 +13,11 @@ export default function Page(){
     return(
     <div className='w-full h-full bottom-0 align-middle -z-10 text-black dark:text-light-gray'>
         <div className='w-full h-screen flex flex-col align-middle'>
-            <h1 className={ApaluFont.className+' text-9xl font-bold self-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent leading-tight mt-36'}>{'\u00a0Hi There!\u00a0'}</h1>
-            <h2 className='text-4xl font-bold self-center bg-gradient-to-r from-yellow-300 via-green-500 to-sky-500 bg-clip-text text-transparent mb-10'>
+            <h1 className={ApaluFont.className+' text-6xl md:text-9xl font-bold self-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent leading-tight mt-36'}>{'\u00a0Hi There!\u00a0'}</h1>
+            <h2 className='text-2xl md:text-4xl font-bold text-center self-center bg-gradient-to-r from-yellow-300 via-green-500 to-sky-500 bg-clip-text text-transparent mb-10'>
                 {'I\'m Herminos'}
             </h2>
-            <h2 className='text-4xl font-bold self-center bg-gradient-to-r from-yellow-300 via-green-500 to-sky-500 bg-clip-text text-transparent'>
+            <h2 className='text-2xl md:text-4xl font-bold self-center text-center bg-gradient-to-r from-yellow-300 via-green-500 to-sky-500 bg-clip-text text-transparent'>
                 {'Welcome to my website'}
             </h2>
             <div className='relative w-10 self-center rounded-full mt-36'>
@@ -25,7 +25,7 @@ export default function Page(){
             </div>
         </div>
         <div className='w-5/6 m-auto '>
-            <p className='w-full text-2xl text-lightgray'>
+            <p className='w-full text-bg md:text-2xl text-lightgray'>
                 Thank you for coming to my site! I am an ordinary high school student who is not hosting any open 
                 source project, not famous and not a genius. I am interested in computer science and natural science.
                 I am also a fan of open source software and I am trying to contribute to the open source community.<br/><br/>
