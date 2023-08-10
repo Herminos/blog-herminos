@@ -12,4 +12,4 @@ npm run dev
 ```
 
 ## Deployment
-This project isn't deployed yet, but it will be soon.
+This project is powered by Amazon Amplify on [https://www.herminos.site/](https://www.herminos.site).
