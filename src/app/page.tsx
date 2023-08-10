@@ -46,7 +46,7 @@ export default function Page(){
     )
 }
 
-export function ChevronDownIcon() {
+function ChevronDownIcon() {
     return (
         <svg
             fill="none"
