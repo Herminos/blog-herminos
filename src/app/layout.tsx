@@ -47,10 +47,10 @@ export default function RootLayout({
                     </div>
                     <div className='flex flex-col mt-4'>
                         <p className='align-middle text-center text-light-gray mb-3'>
-                            OpenPGP E2E Encryption? Public key <a href='#' download={'../../public/0x462F6F9E67F5C542-public.asc'} className='hover:text-sky-500'>here</a>
+                            OpenPGP E2E Encryption? Public key <a href='#' download={'../../public/public.asc'} className='hover:text-sky-500'>here</a>
                         </p>
                         <p className='align-middle text-center text-light-gray mb-3'>
-                        Fingerprint: 9659 BF02 31CA F646 A1F5 A77F 462F 6F9E 67F5 C542
+                        Fingerprint: 5941 C68F BCA0 EDB8 3E94 476F B588 D7DE B8A1 78EC
                         </p>
                         <p className='align-middle text-center text-light-gray mb-3'>
                             Licensed under CC BY-SA
